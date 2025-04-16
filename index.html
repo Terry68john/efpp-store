@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>EFPP - Eco-Friendly Pet Products</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="logo">EFPP Store</div>
+    
+    <nav class="nav-links" id="navLinks">
+      <a href="#">Home</a>
+      <a href="#">Products</a>
+      <a href="#">Contact</a>
+    </nav>
+  
+    <!-- Hamburger Icon -->
+    <div class="menu-toggle" id="menuToggle">☰</div>
+  </header>
+  
+
+  <section class="hero">
+    <h1>Eco-Friendly Pet Products</h1>
+    <p>Sustainable and natural items for your furry friends.</p>
+    <a href="#" class="btn">Shop Now</a>
+  </section>
+
+  <section class="products">
+    <h2>Featured Products</h2>
+    <div class="product-grid">
+      <div class="product-card">
+        <img src="https://th.bing.com/th/id/OIP.ysHMXOIFkbHaaLnY_xIg7QHaHa?w=201&h=201&c=7&r=0&o=5&dpr=2&pid=1.7" alt="Dog Toy" />
+        <h3>Eco-Friendly Dog Toy</h3>
+        <p>$20.99</p>
+        <small>Supplier: Funacop</small><a href="https://funacopets.com/eco-dog-toy" target="_blank">
+          <button class="buy-button">Buy Now</button>
+        </a>
+
+      </div>
+      <div class="product-card">
+        <img src="https://th.bing.com/th/id/OIP.PIeXZFUC_tUeH4B--2p7dQHaHN?w=195&h=190&c=7&r=0&o=5&dpr=2&pid=1.7" alt="Poop Bags" />
+        <h3>Biodegradable Poop-Bags</h3>
+        <p>$18.99</p>
+        <small>Supplier: Planta</small>
+        <a href="https://plantaeco.com/biodegradable-poop-bags" target="_blank">
+          <button class="buy-button">Buy Now</button>
+        </a>
+      </div>
+
+      <div class="product-card">
+        <img src="https://th.bing.com/th/id/OIP._6aP8wSJpAqh4A7MptynMgHaFr?w=233&h=180&c=7&r=0&o=5&dpr=2&pid=1.7" alt="Cat Treats" />
+        <h3>Natural Cat Treats</h3>
+        <p>$21.99</p>
+        <small>Supplier: Bioioon</small>
+        <a href="https://www.biooonpets.com/natural-cat-treats" target="_blank">
+          <button class="buy-button">Buy Now</button>
+        </a>
+      </div>
+      <div class="product-card">
+        <img src="https://th.bing.com/th/id/OIP.lQaKZhdiKMLPUPHtys2wJwHaE4?w=252&h=180&c=7&r=0&o=5&dpr=2&pid=1.7" alt="Pet Bed" />
+        <h3>Organic Pet Bed</h3>
+        <p>$49.99</p>
+        <small>Supplier: Quinta</small>  <a href="https://quintapetsupplies.com/organic-pet-bed" target="_blank">
+          <button class="buy-button">Buy Now</button>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact">
+    <h2>Contact Us</h2>
+    <p>Get in touch with us for any questions or inquiries.</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 EFPP. All rights reserved.</p>
+  </footer>
+  <script>
+    const toggleBtn = document.getElementById('menuToggle');
+    const navLinks = document.getElementById('navLinks');
+  
+    toggleBtn.addEventListener('click', () => {
+      navLinks.classList.toggle('show');
+    });
+  </script>  
+
+</body>
+</html>
